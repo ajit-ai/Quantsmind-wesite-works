@@ -1,0 +1,22 @@
+// — Typography — spec §7
+:root {
+  --font-display: 'Plus Jakarta Sans', 'Sora', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  --text-display: clamp(56px, 8vw, 88px);
+  --text-h1: clamp(40px, 5vw, 64px);
+  --text-h2: clamp(32px, 4vw, 48px);
+  --text-h3: clamp(24px, 3vw, 36px);
+  --text-h4: clamp(18px, 2vw, 24px);
+  --text-body-lg: 18px;
+  --text-body: 16px;
+  --text-small: 14px;
+  --text-xs: 12px;
+  --text-code: 14px;
+
+  --leading-tight: 1.05;
+  --leading-snug: 1.2;
+  --leading-normal: 1.6;
+  --tracking-tight: -0.03em;
+}
