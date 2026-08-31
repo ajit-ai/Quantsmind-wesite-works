@@ -1,0 +1,52 @@
+// — Colors — spec §6 — CSS custom properties on :root, light-first
+:root {
+  // Backgrounds
+  --color-bg-base: #ffffff;
+  --color-bg-surface: #f7f8fa;
+  --color-bg-elevated: #eff1f5;
+  --color-bg-inverse: #0e1117;
+
+  // Borders
+  --color-border-subtle: #e3e6ec;
+  --color-border-strong: #c8cdd7;
+
+  // Text
+  --color-text-primary: #0d111a;
+  --color-text-secondary: #4a5568;
+  --color-text-muted: #8a94a6;
+
+  // Pillar accents
+  --color-engineering: #4361ee;
+  --color-intelligence: #7c5cff;
+  --color-labs: #00c9a7;
+
+  // Supporting
+  --color-accent-amber: #f59e0b;
+  --color-accent-rose: #f43f5e;
+  --color-success: #10b981;
+
+  // Gradients
+  --gradient-engineering: linear-gradient(135deg, #4361ee, #7c5cff);
+  --gradient-intelligence: linear-gradient(135deg, #7c5cff, #a855f7);
+  --gradient-labs: linear-gradient(135deg, #00c9a7, #0ea5e9);
+  --gradient-hero: linear-gradient(135deg, #4361ee 0%, #7c5cff 50%, #00c9a7 100%);
+
+  // Dark inverse sections (hero, footer, CTA bands)
+  --color-dark-bg: #0e1117;
+  --color-dark-surface: #161b25;
+  --color-dark-text: #f3f5f7;
+  --color-dark-muted: #8a94a6;
+  --color-dark-border: #232a3b;
+}
+
+// Future dark mode — prefers toggle via [data-theme="dark"]
+[data-theme='dark'] {
+  --color-bg-base: #0e1117;
+  --color-bg-surface: #161b25;
+  --color-bg-elevated: #1e2535;
+  --color-border-subtle: #232a3b;
+  --color-border-strong: #2e374d;
+  --color-text-primary: #f3f5f7;
+  --color-text-secondary: #b0b8c8;
+  --color-text-muted: #8a94a6;
+}
